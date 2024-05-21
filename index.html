@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet">
+    <title>Estilos</title>
+</head>
+<body>
+    <div class="menu" id="menu">
+        <ul >
+            <li class="list"><button id="cerrar">X</button></li>
+            <li class="list"><a class="bandera" onclick="Bandera('Argentina')">Argentina</a></li>
+            <li class="list"><a class="bandera" onclick="Bandera('Japon')">Japon</a></li>
+            <li class="list"><a class="bandera" onclick="Bandera('Argentina')">Uruguay</a></li>
+            <li class="list"><span class="bandera" id="otra">Otra
+                <ul class="subMenu">
+                    <li class="list"><a class="banderin">Brazil</a></li>
+                    <li class="list"><a class="banderin">España</a></li>
+                    <li class="list"><a class="banderin">Paraguay</a></li>
+                    <li class="list"><a class="banderin">USA</a></li>
+                </ul>
+            </span></li>
+        </ul>
+    </div>
+    <nav class="nav">
+        <button id="buton" class="despliegue"> ☰ </button>
+        <span class="options">
+            <ul >
+                <li class="list2"><a class="bandera" onclick="Bandera('Argentina')">Argentina</a></li>
+                <li class="list2"><a class="bandera" onclick="Bandera('Japon')">Japon</a></li>
+                <li class="list2"><a class="bandera" onclick="Bandera('Argentina')">Uruguay</a></li>
+                <li class="list2"><span class="bandera" id="otra">Otra
+                    <ul class="subMenu">
+                        <li class="list"><a class="banderin">Brazil</a></li>
+                        <li class="list"><a class="banderin">España</a></li>
+                        <li class="list"><a class="banderin">Paraguay</a></li>
+                        <li class="list"><a class="banderin">USA</a></li>
+                    </ul>
+                </span></li>
+            </ul>
+        </span>
+    </nav>
+    <div class="contenedor">
+        <div class="div1"></div>
+        <div class="div2"><span class="sol" id="sol">☀️</span></div>
+        <div class="div3"></div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

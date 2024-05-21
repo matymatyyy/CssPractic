@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(163, 163, 163);
+    font-size: 2em;
+}
+
+.div1{
+    text-align-last: center;
+    background-color: lightblue;
+    width: 100%;
+    height: 5em;
+}
+.div2{
+    background-color: white;
+    width: 100%;
+    height: 5em;
+    align-content: center;
+    text-align: center;
+    
+}
+.div3{
+    background-color: lightblue;
+    width: 100%;
+    height: 5em;
+}
+.contenedor{
+    padding: 1em;
+}
+.nav{
+    width: 100%;
+    background-color: rgb(77, 76, 76);
+}
+.bandera{
+    padding-left: 1em;
+    padding-right: 1em;
+    cursor: pointer;
+    margin: 1em;
+}
+.bandera:hover{
+    background-color: darkslategrey;
+}
+.sol{
+    font-size: 3em;
+}
+.despliegue{
+    width: 2em;
+    margin: 0.3em;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    display: none;
+}
+.menu{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    left: -105%;
+    background-color: lightblue;
+    transition: all 0.3s;
+}
+.list{
+    list-style: none;
+}
+.list2{
+    display: inline;
+}
+.subMenu{
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: -4.5em;
+}
+#otra{
+    position: relative;
+}
+#otra:hover .subMenu {
+    position: absolute;
+    display:inline-table;
+    background-color: rgb(77, 76, 76);
+    width: 15%;
+    height: 20%;
+}
+.banderin{
+    cursor: pointer;
+}
+.banderin:hover{
+    background-color: darkslategrey;
+}
+
+@media (max-width: 800px) {
+    .despliegue{
+        display: block;
+        
+    }
+    .options{
+        display: none;
+    }
+}
